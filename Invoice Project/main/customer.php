@@ -42,7 +42,7 @@ customerlist();
     </table>
 
 </td>
-<td valign="top">
+<td valign="top" style="border-left:1px solid #000; padding-left:5px">
 	<div id="customerdetails">
     <form id="submitform" name="submitform" method="post" action="">
     	<table cellspacing="10" cellpadding="3">
@@ -169,7 +169,7 @@ customerlist();
     <div id="stockdetails">
     	<div id="Tabs">
             <ul>
-                <li id="li_tab1" onclick="tab('1')"><a>Tab 1</a></li>
+                <li id="li_tab1" onclick="tab('1')"><a class="active">Tab 1</a></li>
                 <li id="li_tab2" onclick="tab('2')"><a>Tab 2</a></li>
                 <li id="li_tab3" onclick="tab('3')"><a>Tab 3</a></li>
                 <li id="li_tab4" onclick="tab('4')"><a>Tab 4</a></li>
@@ -188,6 +188,7 @@ customerlist();
                     <p>This is the text for tab 4.</p>
                 </div>
             </div> 
+            <br /><br />
         </div>
     </div>
 </td>
